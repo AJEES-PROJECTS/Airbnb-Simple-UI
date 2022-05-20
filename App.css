@@ -1,0 +1,130 @@
+.airbnb-text {
+  color: red;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+   height: 80px;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: Poppins;
+  box-shadow:  0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+
+}
+.logo {
+  height: 30px;
+  max-width: 100px;
+
+}
+section {
+  padding: 20px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero > img {
+  width: 1000px;
+  align-self: center;
+
+}
+.hero-header {
+  margin-bottom: 16px;
+  font-size: 40px
+
+}
+.hero-text {
+  margin-top: 0px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.gray {
+  color: #918E9B;
+}
+.bold {
+  font-weight: bold;
+}
+.card {
+  position: relative;
+}
+
+.card--image {
+  padding-left: 60px;
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+.card--star {
+  width: 14px;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+
+
+}
+.card--stats,.others {
+  padding-left: 60px;
+
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 66px;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.Footer {
+  position: absolute;
+ left: 0;
+  top :  1200px;
+ width: 100%;
+ background:#7F7D7D;
+ color: white;
+ text-align: center;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
